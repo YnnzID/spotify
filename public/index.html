@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
   <meta name="theme-color" content="#000000" />
-  <title>YnnzId - Music</title>
+  <title>Ynnz.Id - Music</title>
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="/logo-192.png" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
@@ -27,7 +27,7 @@
   <div id="splash" aria-hidden="true">
     <div class="splash-inner">
       <img class="splash-logo" src="/logo.png" width="128" height="128" alt="" />
-      <div class="splash-name">Rich Music</div>
+      <div class="splash-name">Ynnz.Id</div>
     </div>
   </div>
   <!-- Spotify-style icon sprite -->
@@ -178,7 +178,7 @@
           <button type="button" class="lib-title" id="side-queue-btn" title="Open queue">
             <svg class="ic">
               <use href="#i-queue" />
-            </svg><span>Queue</span>
+            </svg><span>Antrean</span>
           </button>
           <button type="button" id="side-q-clear" class="icon-btn hidden" title="Clear your queue"><svg class="ic">
               <use href="#i-x" />
@@ -190,7 +190,7 @@
         <div class="lib-head">
           <button class="lib-title" id="lib-title-btn"><svg class="ic">
               <use href="#i-library" />
-            </svg><span>Your Library</span></button>
+            </svg><span>Library Anda</span></button>
           <button id="lib-new" class="icon-btn" title="Your Library"><svg class="ic">
               <use href="#i-fwd" />
             </svg></button>
@@ -215,7 +215,7 @@
           <svg class="ic">
             <use href="#i-search" />
           </svg>
-          <span>What do you want to play?</span>
+          <span>Apa Yang Ingin Anda Mainkan?</span>
         </button>
         <div class="tb-actions">
           <button id="theme-toggle" class="tb-btn" title="Toggle theme">
@@ -299,7 +299,7 @@
           <button id="np-close" class="icon-btn" title="Minimize"><svg class="ic">
               <use href="#i-chev-down" />
             </svg></button>
-          <span class="np-caption">Now Playing</span>
+          <span class="np-caption">Sedang Diputar</span>
           <button id="np-sleep" class="icon-btn" title="Sleep timer"><svg class="ic">
               <use href="#i-clock" />
             </svg></button>
@@ -307,16 +307,16 @@
         <div class="np-tabs">
           <button data-nptab="player" class="np-tab active"><svg class="ic">
               <use href="#i-note" />
-            </svg>Song</button>
+            </svg>Lagu</button>
           <button data-nptab="lyrics" class="np-tab"><svg class="ic">
               <use href="#i-mic" />
-            </svg>Lyrics</button>
+            </svg>Lirik</button>
           <button data-nptab="queue" class="np-tab"><svg class="ic">
               <use href="#i-queue" />
-            </svg>Queue</button>
+            </svg>Antrean</button>
           <button data-nptab="related" class="np-tab"><svg class="ic">
               <use href="#i-radio" />
-            </svg>Related</button>
+            </svg>Lagu Terkait</button>
         </div>
         <div class="np-body">
           <section id="np-player" class="np-pane active">
@@ -350,25 +350,25 @@
             <div class="np-actions">
               <button id="np-playnext" class="pill-btn hidden" title="Play next"><svg class="ic">
                   <use href="#i-next" />
-                </svg><span>Play next</span></button>
+                </svg><span>Putar Selanjutnya</span></button>
               <button id="np-queueadd" class="pill-btn hidden" title="Add to queue"><svg class="ic">
                   <use href="#i-queue" />
-                </svg><span>Add to queue</span></button>
+                </svg><span>Tambah Ke Antrean</span></button>
               <button id="np-like" class="pill-btn"><svg class="ic">
                   <use href="#i-heart-o" />
-                </svg><span>Favorite</span></button>
+                </svg><span>Favorit</span></button>
               <button id="np-addpl" class="pill-btn"><svg class="ic">
                   <use href="#i-plus" />
                 </svg><span>Playlist</span></button>
               <button id="np-more" class="pill-btn" title="More"><svg class="ic">
                   <use href="#i-more" />
-                </svg><span>More</span></button>
+                </svg><span>Lainnya</span></button>
               <button id="np-download" class="pill-btn np-extra" title="Download"><svg class="ic">
                   <use href="#i-download" />
                 </svg><span>Download</span></button>
               <button id="np-share" class="pill-btn np-extra" title="Share"><svg class="ic">
                   <use href="#i-share" />
-                </svg><span>Share</span></button>
+                </svg><span>Bagikan</span></button>
               <button id="np-speed" class="pill-btn np-extra" title="Playback speed"><svg class="ic">
                   <use href="#i-clock" />
                 </svg><span>1×</span></button>
@@ -376,7 +376,7 @@
                   <use href="#i-pip" />
                 </svg><span>Widget</span></button>
               <button id="np-quality" class="pill-btn np-extra"
-                title="YouTube Music audio — tap for YouTube max quality"><span>Quality</span></button>
+                title="YouTube Music audio — tap for YouTube max quality"><span>Kualitas</span></button>
               <button id="np-sb" class="pill-btn np-extra" title="SponsorBlock auto-skip"><svg class="ic">
                   <use href="#i-next" />
                 </svg><span>SB</span></button>
@@ -390,7 +390,7 @@
           </section>
           <section id="np-lyrics" class="np-pane">
             <div id="lyrics-container">
-              <div class="lyrics-empty">No lyrics yet</div>
+              <div class="lyrics-empty">Tidak ada lirik</div>
             </div>
             <div id="lyrics-source"></div>
           </section>
@@ -407,10 +407,10 @@
     <!-- Add-to-playlist modal -->
     <div id="modal" class="hidden">
       <div class="modal-card">
-        <h3 id="modal-title">Add to playlist</h3>
+        <h3 id="modal-title">Tambah Ke Playlist</h3>
         <div id="modal-body"></div>
         <div class="modal-actions">
-          <button id="modal-cancel" class="pill-btn">Close</button>
+          <button id="modal-cancel" class="pill-btn">Tutup</button>
         </div>
       </div>
     </div>
